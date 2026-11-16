@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Potboard — a fast, accessible frontend for make.fun bounties: live pots, entry fees, countdowns, leaderboards and profiles.">
+<title>Potboard · make.fun bounties</title>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<a class="skip" href="#app">Skip to content</a>
+<header class="site-head">
+  <a class="brand" href="#/" aria-label="Potboard — bounty board home">
+    <span class="brand-mark" aria-hidden="true">◆</span> Potboard
+    <span class="brand-sub">for make.fun</span>
+  </a>
+  <nav aria-label="Primary">
+    <a href="#/">Bounty board</a>
+    <a href="https://make.fun/bounty/makefun-frontend-01">This bounty on make.fun</a>
+  </nav>
+</header>
+<main id="app" tabindex="-1" aria-live="off"></main>
+<footer class="site-foot">
+  <p>Potboard is an independent, read-only frontend. All data is live from the
+  <a href="https://make.fun/api">make.fun public API</a>; pots shown are the live
+  prize pools — base reward plus entry fees paid so far.</p>
+</footer>
+</body>
+</html>
